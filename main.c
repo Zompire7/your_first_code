@@ -1,9 +1,13 @@
+#include <stdio.h>
 int main()
 {
   int i;
-  for (i = 0; i < 10; i++)
+  float x;
+  for (i = 0; i < 32; i++)
   {
-    printf("Holberton\n");
+    y+=i;
+    printf("Hello Holberton\n");
+    printf("%f\n", x);
   }
-  return 0;
+  return 1;
 }
